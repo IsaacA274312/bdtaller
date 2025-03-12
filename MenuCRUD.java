@@ -8,8 +8,8 @@ public class MenuCRUD {
 
     // Datos de conexión a la base de datos
     private static final String URL = "jdbc:mysql://localhost:3306/Dbtaller";
-    private static final String USER = "root"; // Cambia por tu usuario de MySQL
-    private static final String PASSWORD = "password"; // Cambia por tu contraseña de MySQL
+    private static final String USER = "root";
+    private static final String PASSWORD = "";
 
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
